@@ -1,0 +1,133 @@
+* {
+   margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.tabla>tbody>tr>td {
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+.boton {
+   font-size: 15px;
+   background-color: green;
+   color: white;
+   height: 50px;
+   width: 90px;
+   border: 1px solid gray;
+   border-radius: 5px;
+   cursor:pointer;
+}
+
+.boton:hover {
+   background-color: seagreen;
+}
+
+.cuerpo {
+   padding-left: 20px;
+   padding-right: 20px;
+   width: 100%;
+}
+
+.tituloCuerpo {
+   font-family: 'Open sans';
+   margin-bottom: 15px;
+   display: inline-block;
+   border-bottom: 1px solid black;
+}
+
+.parrafo {
+   padding-top: 5px;
+   font-family: 'Open sans';
+}
+
+.navegacion {
+   width: 100%;
+   /* margin: 10px auto; */
+   /* background: #402c82; */
+   border-bottom: 1px solid black;
+}
+
+.navegacion ul {
+   list-style: none;
+   padding: 10px;
+}
+
+.menu>li {
+   position: relative;
+   display: inline-block;
+   border-radius: 15px;
+}
+
+.menu>li>a {
+   display: block;
+   padding: 15px 60px;
+   color: steelblue;
+   font-family: 'Open sans';
+   text-decoration: none;
+   top: 30px;
+}
+
+.menuActivo {
+   background-color: #2d8ab4;
+   color: white;
+}
+
+.menuActivo>a {
+   color: white !important;
+}
+
+.logo {
+   width: 60px;
+   height: 60px;
+   margin: 7px 40px 0 30px;
+   padding: 0;
+   position: absolute;
+}
+
+.menu li a:hover {
+   color: white;
+   background-color: steelblue;
+   transition: all 0.3s;
+   border-radius: 15px;
+}
+
+.menu li:hover .submenu {
+   visibility: visible;
+   opacity: 1;
+   border-radius: 15px;
+}
+
+/* submenu */
+
+.submenu {
+   position: absolute;
+   border: black solid 1px;
+   background: #1d6e83;
+   width: 140%;
+   visibility: hidden;
+   opacity: 0;
+   transition: opacity .3s;
+   border-radius: 15px;
+}
+
+.submenu li a {
+   display: block;
+   padding: 15px;
+   color: #fff;
+   font-family: 'Open sans';
+   text-decoration: none;
+}
+
+.subMenuActivo {
+   background-color: #2d8ab4;
+   color: white;
+   border-radius: 15px;
+}
+
+.subMenuActivo>a {
+   color: white !important;
+}

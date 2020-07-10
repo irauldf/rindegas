@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>RindeGas - Contacto</title>
+   <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body>
+   <header>
+      <nav class="navegacion">
+         <img src="assets/img/logo.png" class="logo">
+         <ul class="menu">
+            <li>
+               <a href="index.html">
+               </a>
+            </li>
+            <li><a href="index.html">Inicio</a></li>
+            <li>
+               <a href="quienessomos.html">¿Quiénes somos?</a>
+               <ul class="submenu">
+                  <li><a href="mision.html">Misión</a></li>
+                  <li><a href="vision.html">Visión</a></li>
+               </ul>
+            </li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="redessociales.html">Redes Sociales</a></li>
+            <li class="menuActivo"><a href="contacto.html">Contacto</a></li>
+         </ul>
+      </nav>
+   </header>
+
+   <br />
+
+   <div class="cuerpo">
+      <h1><span style="color:steelblue; font-weight: bold;">Contacto</span></h1>
+      <table style="width: 100%;">
+         <tr>
+            <td style="text-align: center;">
+               <img src="assets/img/contacto.png">
+            </td>
+            <td>
+               <table class="tabla">
+                  <tr style="margin-bottom: 20px;">
+                     <td><label style="margin-right: 30px;">Nombre: </label></td>
+                     <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                     <td> <label style="margin-right: 30px;">Deseo gas para: </label></td>
+                     <td>
+                        <select>
+                           <option value="Hogar">Hogar</option>
+                           <option value="Negocio">Negocio</option>
+                        </select>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><label style="margin-right: 30px;">Correo electrónico: </label></td>
+                     <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                     <td><label>Deseo recibir ofertas</label></td>
+                     <td><input type="checkbox" style="margin-right: 10px;"></td>
+                  </tr>
+                  <tr>
+                     <td>&nbsp;</td>
+                     <td><button type="button" class="boton"
+                           onclick="alert('Sus datos fueron guardados')">Enviar</button></td>
+                  </tr>
+               </table>
+            </td>
+         </tr>
+      </table>
+   </div>
+</body>
+
+</html>

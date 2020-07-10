@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>RindeGas - Inicio</title>
+   <link rel="stylesheet" href="assets/css/estilos.css">
+   <link rel="stylesheet" href="assets/css/slippry.css">
+</head>
+
+<body>
+   <header>
+      <nav class="navegacion">
+         <img src="assets/img/logo.png" class="logo">
+         <ul class="menu">
+            <li>
+               <a href="index.html">
+               </a>
+            </li>
+            <li class="menuActivo"><a href="index.html">Inicio</a></li>
+            <li>
+               <a href="quienessomos.html">¿Quiénes somos?</a>
+               <ul class="submenu">
+                  <li><a href="mision.html">Misión</a></li>
+                  <li><a href="vision.html">Visión</a></li>
+               </ul>
+            </li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="redessociales.html">Redes Sociales</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+         </ul>
+      </nav>
+   </header>
+
+   <br />
+
+   <div class="cuerpo">
+      <p style="text-align: justify; font-size: 25px;">
+         <span style="color:steelblue; font-weight: bold;">Rinde Gas</span> es ahorrador calidad de la
+         gente ahorrador . Brindamos garantía en los productos.
+         El gas es usado como combustible o materia prima para hornos, secadores, calderas, entre otros. En Rinde Gas,
+         el compromiso para que las familias y negocios locales se sientan tranquilos y seguros con nuestros productos,
+         está garantizada.
+      </p>
+      <br />
+      <br />
+      <br />
+      <br />
+      <hr />
+      <ul id="galeria">
+         <li>
+            <a href="#slide1"><img src="assets/img/1.jpeg" alt="Productos"></a>
+         </li>
+         <li>
+            <a href="#slide2"><img src="assets/img/2.jpeg" alt="Calidad"></a>
+         </li>
+         <li>
+            <a href="#slide3"><img src="assets/img/3.jpeg" alt="Variedad"></a>
+         </li>
+         <li>
+            <a href="#slide4"><img src="assets/img/4.jpeg" alt="Delivery"></a>
+         </li>
+      </ul>
+   </div>
+   <br />
+   <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+   <script src="assets/js/slippry.min.js"></script>
+   <script>
+      $(function () {
+         var demo1 = $("#galeria").slippry();
+      });
+   </script>
+</body>
+
+</html>
