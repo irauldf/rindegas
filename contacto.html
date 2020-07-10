@@ -6,6 +6,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>RindeGas - Contacto</title>
    <link rel="stylesheet" href="assets/css/estilos.css">
+   <script src="assets/js/registro.js"></script>
 </head>
 
 <body>
@@ -45,12 +46,12 @@
                <table class="tabla">
                   <tr style="margin-bottom: 20px;">
                      <td><label style="margin-right: 30px;">Nombre: </label></td>
-                     <td><input type="text"></td>
+                     <td><input type="text" id="txtNombre"></td>
                   </tr>
                   <tr>
                      <td> <label style="margin-right: 30px;">Deseo gas para: </label></td>
                      <td>
-                        <select>
+                        <select id="cboGasPara">
                            <option value="Hogar">Hogar</option>
                            <option value="Negocio">Negocio</option>
                         </select>
@@ -58,16 +59,15 @@
                   </tr>
                   <tr>
                      <td><label style="margin-right: 30px;">Correo electrónico: </label></td>
-                     <td><input type="text"></td>
+                     <td><input type="text" id="txtCorreo"></td>
                   </tr>
                   <tr>
                      <td><label>Deseo recibir ofertas</label></td>
-                     <td><input type="checkbox" style="margin-right: 10px;"></td>
+                     <td><input type="checkbox" id="chkRecibirOferta" style="margin-right: 10px;"></td>
                   </tr>
                   <tr>
                      <td>&nbsp;</td>
-                     <td><button type="button" class="boton"
-                           onclick="alert('Sus datos fueron guardados')">Enviar</button></td>
+                     <td><button type="button" class="boton" onclick="registrar()">Enviar</button></td>
                   </tr>
                </table>
             </td>

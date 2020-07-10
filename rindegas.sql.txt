@@ -1,0 +1,9 @@
+create database rindegas;
+use rindegas;
+create table pedidos(
+   id int not null key AUTO_INCREMENT,
+   nombre varchar(20),
+   gasPara varchar(20),
+   correo varchar(30),
+   recibirOfertas varchar(10)
+);
