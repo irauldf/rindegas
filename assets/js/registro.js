@@ -24,7 +24,7 @@ function registrar() {
    xhr.onreadystatechange = function () {
       console.log(xhr.response);
       if (xhr.readyState == 4) {
-         let json = JSON.parse(xhr.response);
+         var json = JSON.parse(xhr.response);
          if (json.exito) {
             alert("Datos guardados");
 
